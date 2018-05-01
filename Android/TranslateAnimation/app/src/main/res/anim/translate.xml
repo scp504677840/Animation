@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000"
+    android:fromXDelta="0"
+    android:fromYDelta="0"
+    android:toXDelta="100"
+    android:toYDelta="100" />
+
+    <!--
+    android:fromXDelta
+    android:fromYDelta
+    android:toXDelta
+    android:toYDelta
+    android:detachWallpaper
+    android:duration
+    android:fillAfter
+    android:fillBefore
+    android:fillEnabled
+    android:interpolator
+    android:repeatCount
+    android:repeatMode
+    android:startOffset
+    android:zAdjustment
+    -->
