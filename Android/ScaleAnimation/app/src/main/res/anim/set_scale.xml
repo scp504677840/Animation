@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale
+        android:duration="3000"
+        android:fromXScale="100%"
+        android:fromYScale="100%"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="50%"
+        android:toYScale="50%" />
+</set>
+
+    <!--
+    android:fromXScale
+    android:fromYScale
+    android:pivotX
+    android:pivotY
+    android:toXScale
+    android:toYScale
+    android:detachWallpaper
+    android:duration
+    android:fillAfter
+    android:fillBefore
+    android:fillEnabled
+    android:interpolator
+    android:repeatCount
+    android:repeatMode
+    android:startOffset
+    android:zAdjustment
+    -->
