@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="rotate">
+        <!--<attr name="android:detachWallpaper">false</attr>-->
+        <attr name="android:duration">3000</attr>
+        <!--<attr name="android:fillAfter">true</attr>-->
+        <!--<attr name="android:fillBefore">false</attr>-->
+        <!--<attr name="android:fillEnabled">false</attr>-->
+        <!--<attr name="android:interpolator"></attr>-->
+        <attr name="android:repeatCount">3</attr>
+        <attr name="android:repeatMode">restart</attr>
+        <attr name="android:startOffset">1000</attr>
+        <!--<attr name="android:zAdjustment"></attr>-->
+    </declare-styleable>
+
+</resources>

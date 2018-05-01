@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000"
+    android:fromDegrees="0"
+    android:pivotX="100%"
+    android:pivotY="100%"
+    android:toDegrees="360" /><!--
+android:detachWallpaper
+android:duration
+android:fillAfter
+android:fillBefore
+android:fillEnabled
+android:interpolator
+android:repeatCount
+android:repeatMode
+android:startOffset
+android:zAdjustment
+-->
+
+<!--
+pivotX、pivotY
+1.当它们填写的是数字时，表示它们在X轴和Y轴上的坐标，
+而这个坐标是从自身视图左上角（假设X = 400，Y = 800）算起的。
+在整个父视图内都有效，也就是说不是自身大小。
+2.当它们填写的是百分比时，取的是自身视图宽度和高度的百分比。
+假设自身视图的宽度为400，高度为800，pivotX = 50%，pivotY = 50%；
+那么视图的旋转中心为 （400 * 50% = 200，800 * 50% = 400） =（200，400）
+由于动画是由父视图实际操作的，所以（200，400）自然不是最终坐标，
+最终坐标为子视图左上角坐标（假设为600，1000） + 刚刚计算得到的坐标（200，400），
+于是最终坐标为（800，1400），既旋转坐标为（800，1400）。
+-->
