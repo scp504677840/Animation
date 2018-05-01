@@ -1,0 +1,49 @@
+An interpolator where the rate of change starts and ends slowly but accelerates through the middle.
+An interpolator where the rate of change starts out slowly and and then accelerates.
+An animation that controls the alpha level of an object.
+Abstraction for an Animation that can be applied to Views, Surfaces, or other objects.
+Utility class to parse a string description of a size.
+Represents a group of Animations that should be played together.
+Defines common utilities for working with animations.
+An interpolator where the change starts backward then flings forward.
+An interpolator where the change starts backward then flings forward and overshoots the target value and finally goes back to the final value.
+An abstract class which is extended by default interpolators.
+An interpolator where the change bounces at the end.
+Repeats the animation for a specified number of cycles.
+An interpolator where the rate of change starts out quickly and and then decelerates.
+A layout animation controller is used to animated a grid layout's children.
+The set of parameters that has to be attached to each view contained in the view group animated by the grid layout animation controller.
+A layout animation controller is used to animated a layout's, or a view group's, children.
+The set of parameters that has to be attached to each view contained in the view group animated by the layout animation controller.
+An interpolator where the rate of change is constant
+An interpolator where the change flings forward and overshoots the last value then comes back.
+An interpolator that can traverse a Path that extends from Point (0, 0) to (1, 1).
+An animation that controls the rotation of an object.
+An animation that controls the scale of an object.
+Defines the transformation to be applied at one point in time of an Animation.
+An animation that controls the position of an object.
+
+AccelerateDecelerateInterpolator
+AccelerateInterpolator
+AlphaAnimation
+Animation
+Animation.Description
+AnimationSet
+AnimationUtils
+AnticipateInterpolator
+AnticipateOvershootInterpolator
+BaseInterpolator
+BounceInterpolator
+CycleInterpolator
+DecelerateInterpolator
+GridLayoutAnimationController
+GridLayoutAnimationController.AnimationParameters
+LayoutAnimationController
+LayoutAnimationController.AnimationParameters
+LinearInterpolator
+OvershootInterpolator
+PathInterpolator
+RotateAnimation
+ScaleAnimation
+Transformation
+TranslateAnimation
